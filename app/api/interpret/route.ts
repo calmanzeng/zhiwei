@@ -11,6 +11,7 @@ export async function POST(request: NextRequest) {
 
     const lastUserMsg = messages?.filter((m: any) => m.role === 'user')?.pop()?.content || '';
     const deepseekKey = process.env.DEEPSEEK_API_KEY || '';
+    const isValidKey = deepseekKey.startsWith('sk-') && deepseekKey.length > 15;
 
     // ── 构建系统提示 ──
     const chartSummary = chart ? buildChartContext(chart) : '';
@@ -25,7 +26,7 @@ ${chartSummary}
 3. 给出具体的、可操作的建议
 4. 保持温和、鼓励的语气`;
 
-    if (!deepseekKey) {
+    if (!isValidKey) {
       // 无 API Key 时返回模拟解读
       const mockResponse = getMockInterpretation(lastUserMsg);
       const encoder = new TextEncoder();
