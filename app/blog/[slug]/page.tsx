@@ -131,14 +131,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
           }}>
             🔮 起盘看你的命盘 →
           </Link>
-          <Link href="/consult" style={{
-            fontSize: '13px',
-            color: 'var(--ac)',
-            textDecoration: 'none',
-            fontWeight: 500,
-          }}>
-            💬 AI命理问答 →
-          </Link>
+
           <Link href="/learn" style={{
             fontSize: '13px',
             color: 'var(--tx-2)',
