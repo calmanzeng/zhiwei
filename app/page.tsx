@@ -303,12 +303,7 @@ export default function HomePage() {
             }}>
               请加微信咨询
             </div>
-            <div style={{
-              fontSize: '12px', color: C.text3,
-              lineHeight: 1.6,
-            }}>
-              长按识别二维码 → 添加好友 → 发送出生信息 → 获得深度命盘解读
-            </div>
+
           </div>
         </FadeIn>
       </div>
