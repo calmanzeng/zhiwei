@@ -281,7 +281,7 @@ export default function HomePage() {
               fontSize: '13px', color: C.text2, lineHeight: 1.8,
               maxWidth: '480px', marginBottom: '4px',
             }}>
-              十多年手动排盘分析经验，每一张命盘都经过人工细致解读
+              十多年手动排盘分析经验，软件排盘有误差，AI 解读也有误，我还是坚持手动排盘准确率比较高。
             </p>
             <div style={{
               fontSize: '24px', fontWeight: 700, color: C.accent,
