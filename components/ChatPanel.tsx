@@ -99,7 +99,6 @@ export default function ChatPanel({ chart }: ChatPanelProps) {
       {/* 消息列表 */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto p-4 space-y-3 min-h-0">
         {messages.length === 0 && (
-          <>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center py-8">
             <div className="text-4xl mb-3" style={{ color: 'var(--t-gold)', opacity: 0.15 }}>✦</div>
             <p className="text-xs leading-relaxed" style={{ color: 'var(--t-faint)' }}>
@@ -107,10 +106,6 @@ export default function ChatPanel({ chart }: ChatPanelProps) {
               或从下方选择常见问题开始解读
             </p>
           </motion.div>
-          <a href="/consult" className="inline-block mt-3 text-[10px] px-3 py-1.5 rounded-full transition-colors" style={{ color: 'var(--t-gold)', border: '1px solid var(--t-border)', textDecoration: 'none' }} onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(212,168,67,0.3)'; }} onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--t-border)'; }}>
-              💬 也有紫微斗数通用问题？去问答中心 →
-          </a>
-          </>
         )}
 
         <AnimatePresence>
