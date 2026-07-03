@@ -118,14 +118,6 @@ export default function HomePage() {
             }}>
               ✦ 免费起盘解读
             </Link>
-            <Link href="/consult" style={{
-              padding: '10px 28px', borderRadius: '10px',
-              border: `1px solid ${C.accentBorder}`,
-              color: C.accent, fontSize: '14px', fontWeight: 500,
-              textDecoration: 'none', letterSpacing: '0.03em',
-            }}>
-              💬 AI 命理问答
-            </Link>
             <Link href="/learn" style={{
               padding: '10px 28px', borderRadius: '10px',
               border: `1px solid ${C.border}`,
@@ -324,7 +316,6 @@ export default function HomePage() {
             { icon: '📖', label: '基础知识', href: '/learn/basics' },
             { icon: '📝', label: '科普文章', href: '/blog' },
             { icon: '❓', label: '常见问题', href: '/learn/faq' },
-            { icon: '💬', label: 'AI 问答', href: '/consult' },
             { icon: '📚', label: '知识库', href: '/knowledge' },
             { icon: '📜', label: '古籍原典', href: '/library' },
             { icon: '💑', label: '合盘分析', href: '/heming' },
