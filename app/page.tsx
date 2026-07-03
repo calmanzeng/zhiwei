@@ -35,7 +35,7 @@ const NAV = [
   { label: '科普文章', href: '/blog' },
   { label: '基础知识', href: '/learn' },
   { label: '免费起盘', href: '/chart' },
-  { label: 'VIP 分析', href: '/consult', highlight: true },
+  { label: 'VIP 分析', href: '#vip', highlight: true },
 ];
 
 export default function HomePage() {
@@ -197,7 +197,7 @@ export default function HomePage() {
       </div>
 
       {/* ══ 最新文章 ════════════════════════════════ */}
-      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }}>
+      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }} id="vip">
         <FadeIn>
           <div style={{
             display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -252,7 +252,7 @@ export default function HomePage() {
       </div>
 
       {/* ══ VIP 人工付费分析 ═══════════════════════ */}
-      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }}>
+      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }} id="vip">
         <FadeIn>
           <div style={{
             background: `linear-gradient(135deg, ${C.accentLight} 0%, #FFF 60%)`,
