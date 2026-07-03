@@ -259,6 +259,60 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* ══ VIP 人工付费分析 ═══════════════════════ */}
+      <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }}>
+        <FadeIn>
+          <div style={{
+            background: `linear-gradient(135deg, ${C.accentLight} 0%, #FFF 60%)`,
+            borderRadius: '14px',
+            border: `1px solid ${C.accentBorder}`,
+            padding: '36px 28px',
+            display: 'flex', flexDirection: 'column', alignItems: 'center',
+            textAlign: 'center',
+          }}>
+            <div style={{ fontSize: '36px', marginBottom: '12px' }}>👨‍🏫</div>
+            <h2 style={{
+              fontSize: '20px', fontWeight: 700, color: C.text,
+              marginBottom: '8px',
+            }}>
+              VIP 人工深度命理分析
+            </h2>
+            <p style={{
+              fontSize: '13px', color: C.text2, lineHeight: 1.8,
+              maxWidth: '480px', marginBottom: '4px',
+            }}>
+              十多年手动排盘分析经验，每一张命盘都经过人工细致解读
+            </p>
+            <div style={{
+              fontSize: '24px', fontWeight: 700, color: C.accent,
+              marginBottom: '16px',
+            }}>
+              每次 <span style={{ fontSize: '32px' }}>388</span> 元
+            </div>
+            <div style={{
+              background: '#fff', borderRadius: '12px',
+              padding: '12px', marginBottom: '16px',
+              border: `1px solid ${C.border}`,
+            }}>
+              <img src="/wechat-qr.jpg" alt="微信咨询"
+                style={{ width: '180px', height: '180px', display: 'block' }} />
+            </div>
+            <div style={{
+              fontSize: '14px', fontWeight: 600, color: C.accent,
+              marginBottom: '4px',
+            }}>
+              请加微信咨询
+            </div>
+            <div style={{
+              fontSize: '12px', color: C.text3,
+              lineHeight: 1.6,
+            }}>
+              长按识别二维码 → 添加好友 → 发送出生信息 → 获得深度命盘解读
+            </div>
+          </div>
+        </FadeIn>
+      </div>
+
       {/* ══ 快速入口 ════════════════════════════════ */}
       <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 20px 48px' }}>
         <FadeIn>
