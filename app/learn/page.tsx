@@ -150,18 +150,7 @@ export default function LearnPage() {
           }}>
             ✦ 免费起盘解读
           </Link>
-          <Link href="/consult" style={{
-            padding: '10px 28px',
-            borderRadius: '999px',
-            border: `1px solid ${c.gold}`,
-            color: c.gold,
-            fontSize: '13px',
-            fontWeight: 500,
-            letterSpacing: '0.1em',
-            textDecoration: 'none',
-          }}>
-            💬 AI 命理问答
-          </Link>
+
         </motion.div>
       </div>
 
