@@ -107,7 +107,7 @@ export default function HomePage() {
             lineHeight: 1.7, maxWidth: '560px', marginBottom: '28px',
           }}>
             基于倪海夏正宗紫微斗数体系的科普学习平台。<br />
-            免费起盘解读 · AI 命理问答 · VIP 深度陪聊分析
+            马上排盘解读 · AI 命理问答 · VIP 深度陪聊分析
           </p>
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
             <Link href="/chart" style={{
@@ -116,7 +116,7 @@ export default function HomePage() {
               fontSize: '14px', fontWeight: 500,
               textDecoration: 'none', letterSpacing: '0.03em',
             }}>
-              ✦ 免费起盘解读
+              ✦ 马上排盘解读
             </Link>
             <Link href="/learn" style={{
               padding: '10px 28px', borderRadius: '10px',
