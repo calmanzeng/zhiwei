@@ -28,7 +28,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/learn/basics`, priority: 0.7, changeFrequency: 'weekly', lastModified: lastmod },
     { url: `${BASE_URL}/learn/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: lastmod },
     { url: `${BASE_URL}/blog`, priority: 0.8, changeFrequency: 'weekly', lastModified: lastmod },
-    { url: `${BASE_URL}/consult`, priority: 0.8, changeFrequency: 'weekly', lastModified: lastmod },
   ];
 
   // 古籍页
