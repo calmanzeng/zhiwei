@@ -183,7 +183,7 @@ export default function HomePage() {
                 事业方向、感情婚姻、财富运势、当前大限、流年运势。
               </p>
               <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-                <Link href="/consult" style={{
+                <Link href="#vip" style={{
                   ...chipStyle, background: C.accent, color: '#fff', borderColor: C.accent,
                 }}>
                   💬 开始咨询
